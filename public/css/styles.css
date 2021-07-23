@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.main-content{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 30em;
+    min-height: 100vh;
+
+    margin: 0 auto;
+    padding: 0 3em;
+    
+}
+nav ul{
+    margin-top: -1em;
+    background-color: rgb(112, 189, 251);
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+nav ul li img{
+    width: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+nav ul li ul{
+    margin-top: 1em;
+    justify-content: space-between;
+}
+nav ul li ul li{
+
+    font-size: x-large;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    padding: 1em
+}
+nav ul li ul li:hover{
+    text-decoration: underline;
+    font-size: x-large;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    padding: 1em
+}
+
+
+
+header{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 64px;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 1em;
+    padding: 1em 0;
+}
+
+.portrait{
+    width: 250px;
+}
+.undertitle{
+    margin-top: -2em;
+}
+.logo{
+    width: 5em;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 1em
+}
+
+button{
+    border-color: #cccccc;
+    cursor: pointer;
+    background-color: #cccccc;
+    padding: 0.8em;
+    border-radius: 10%;
+}
+button:hover{
+    border-color: black;
+    cursor: pointer;
+    background-color: white;
+    padding: 0.8em;
+}
