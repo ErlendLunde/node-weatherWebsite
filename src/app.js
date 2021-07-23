@@ -11,6 +11,8 @@ const forcast = require(path.join(__dirname, "/utils/weatherstack"))
 
 //Set up exspress app
 const app = express()
+//Heroku port 
+const port = process.env.PORT || 3000
 
 /////////////////
 ///CONFIG
@@ -102,6 +104,6 @@ app.get("*", (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log("server is up on port 3000")
+app.listen(port, () => {
+    console.log("server is up on port" + port)
 })
